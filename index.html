@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8">
+    <meta name="description" content="homework">
+    <meta name="keywords" content="Zorana,htlm,div,forms">
+    <meta name="author" content="Zorana Žibert">
+    <title>Homework 2</title>
+    <link rel="icon" type="image/x-icon" href="./SLIKE/Logo.png">
+</head> 
+<body>
+
+<header style="background-color: rgb(240, 157, 157); text-align: center;">
+    <h1 style="font-size: xx-large; color: brown;" id="HOMEWORK">HOMEWORK &#128151;</h1>
+    <nav>
+    <a href="#">HOME</a><br>
+    <a href="#">ABOUT</a><br>
+    <a href="#viaemail">CONTACT</a><br>      
+    </nav>
+<br>
+<br>
+</header>
+<main style="color: rgb(99, 3, 99); font-size: larger; background-color: rgb(255, 202, 211);">
+<form method="post">
+    <br>
+    <h2 style="text-align: center;">Order Form</h2>
+    
+    <label>Your name:</label>  
+    <input type="text" placeholder="Your name" maxlength="15" name="name" value="">
+    <br>
+    <br>
+    
+    <label>Your email:</label>
+    <input type="email" placeholder="Your email" name="email" value="">
+    <br>
+    <br>
+    
+    <span style="text-decoration: underline;">Choose your product:</span> 
+    <input type="radio" name="product" value="product1"><label>Product 1</label>
+    <input type="radio" name="product" value="product2"><label>Product 2</label> 
+    <input type="radio" name="product" value="product3"><label>Product 3</label> 
+    <br>
+    <br>
+    
+    <label>Delivery date:</label><input type="date" name="date" value="">
+    <br>
+    <br>
+    
+    <label for="Quantity">Quantity:</label><input type="number" name="quantity" value="" min="1" max="10" id="Quantity" placeholder="0">
+    <br>
+    <br>
+    
+    <label for="address">Address:</label><input type="text" placeholder="Your address" name="adress" value="" id="address">
+    <br>
+    <br>
+    
+    <label for="City">City:</label>
+    <select name="city" id="City">
+        <option selected disabled>--Choose city--</option>
+        <option value="City 1">City 1</option>
+        <option value="City 2">City 2</option>
+        <option value="City 3">City 3</option>
+    </select>
+    <br>
+    <br>
+    
+    <label for="Region">Region:</label>
+    <select name="region" id="Region">
+        <option selected disabled>--Choose region--</option>
+        <option value="Region 1">Region 1</option>
+        <option value="Region 2">Region 2</option>
+        <option value="Region 3">Region 3</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <label><input type="checkbox" name="notify" value="notify">Notify me by email.</label>
+    <br>
+    <br>
+    <textarea placeholder="Your comment here" name="message" rows="10" cols="30" maxlength="100"></textarea>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Order"> 
+    <br>
+    <br>
+    
+<article style="background-color:rgb(253, 246, 184);">
+    <br>
+    <h2 style="text-align: center;">Upload Your CV</h2>
+    <label for="MyFile">Choose file:</label><input type="file" id="MyFile" name="filename">
+    <br>
+    <br>
+    <h3>Profile</h3>
+    <label for="firstname">First name:</label><input type="text" name="name" placeholder="Enter Your name" value="" id="firstname"><br>
+    <label for="lastname">Last name:</label><input type="text" name="lastname" placeholder="Enter Your last name" value="" id="lastname"><br>
+    <label for="email">Email:</label><input type="email" name="email" placeholder="Enter Your email" value="" id="email"><br>
+    <label>Phone:</label><input type="text" name="Phone" placeholder="Enter Your phone number" value="" id="phone">
+    <br>
+    <br>
+    <br>
+    <p id="viaemail"><mark>Contact us via email:</mark><a href="mailto:office@exaple.com">office@exaple.com</a></p>
+    <br>
+    <br>
+    <br>
+</article>
+</form>
+</main>
+
+<footer style="background-color:rgb(139, 77, 77); height: 250px;; width: 100%;  text-align: center;">
+    <br>
+    <br>
+    <br>
+    <div style="color: aliceblue; font-size: x-large;">Author:<p style="font-style: oblique;">Zorana Žibert &#9829;</p></div><br>
+    <a href="#" style="color: rgb(179, 179, 179);">&#169;CopyRight2022</a>
+    <br>
+    <br>
+    <aside>
+    <a href="#HOMEWORK" style="color: aliceblue;">HOME</a>
+
+    </aside>
+</footer>
+
+        <!-- SREĆNA NOVA GODINA, SVE NAJLEPŠE ! Vidimo se sledeće godine :)) -->
+
+</body>
+</html>
